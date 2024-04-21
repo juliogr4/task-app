@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\youtube\\task\\task_api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|d:\\youtube\\task\\task_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|d:\\youtube\\task\\task_api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|d:\\youtube\\task\\task_api\\service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|solutionrelative:service\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|d:\\youtube\\task\\task_api\\repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|solutionrelative:repository\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|d:\\youtube\\task\\task_api\\model\\dto\\response\\pageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|solutionrelative:model\\dto\\response\\pageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|d:\\youtube\\task\\task_api\\repository\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|solutionrelative:repository\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|d:\\youtube\\task\\task_api\\service\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8143CDD-9D48-41B7-835A-EC3478847269}|task_api.csproj|solutionrelative:service\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\youtube\\task\\task_api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\youtube\\task\\task_api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-21T00:37:54.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "D:\\youtube\\task\\task_api\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "D:\\youtube\\task\\task_api\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAADwvywAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T23:41:12.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "D:\\youtube\\task\\task_api\\Service\\TaskService.cs",
+              "RelativeDocumentMoniker": "Service\\TaskService.cs",
+              "ToolTip": "D:\\youtube\\task\\task_api\\Service\\TaskService.cs",
+              "RelativeToolTip": "Service\\TaskService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAWwFEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T23:41:30.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "D:\\youtube\\task\\task_api\\Service\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Service\\ITaskService.cs",
+              "ToolTip": "D:\\youtube\\task\\task_api\\Service\\ITaskService.cs",
+              "RelativeToolTip": "Service\\ITaskService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T23:41:43.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "D:\\youtube\\task\\task_api\\Repository\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ITaskRepository.cs",
+              "ToolTip": "D:\\youtube\\task\\task_api\\Repository\\ITaskRepository.cs",
+              "RelativeToolTip": "Repository\\ITaskRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T23:43:10.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PageResponse.cs",
+              "DocumentMoniker": "D:\\youtube\\task\\task_api\\Model\\DTO\\Response\\PageResponse.cs",
+              "RelativeDocumentMoniker": "Model\\DTO\\Response\\PageResponse.cs",
+              "ToolTip": "D:\\youtube\\task\\task_api\\Model\\DTO\\Response\\PageResponse.cs",
+              "RelativeToolTip": "Model\\DTO\\Response\\PageResponse.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA3wAsAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T16:20:15.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "D:\\youtube\\task\\task_api\\Repository\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\TaskRepository.cs",
+              "ToolTip": "D:\\youtube\\task\\task_api\\Repository\\TaskRepository.cs",
+              "RelativeToolTip": "Repository\\TaskRepository.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAASwE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T23:43:00.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

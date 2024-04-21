@@ -1,0 +1,21 @@
+.task {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.task__list {
+  flex: 1;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.info__message {
+  text-align: center;
+}
+

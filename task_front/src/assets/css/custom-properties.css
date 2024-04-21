@@ -1,0 +1,13 @@
+:root {
+  /* colors */
+  --dark-gray-color: hsl(0, 0%, 15%);
+  --light-gray-color: hsl(0, 0%, 44%);
+  --blue-color: hsl(216, 82%, 46%);
+  --white-color: hsl(0, 0%, 100%);
+  --overlay-color: hsla(0, 0%, 0%, 0.696);
+  --brown-color: hsl(0, 59%, 41%);
+  --green-color: hsl(90, 77%, 31%);
+
+  /* font */
+  --font-family: "Poppins", sans-serif;
+}

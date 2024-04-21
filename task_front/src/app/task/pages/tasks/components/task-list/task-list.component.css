@@ -1,0 +1,17 @@
+.task__item {
+  border: 1px solid var(--light-gray-color);
+  margin-block: .8rem;
+  padding-inline: .5rem;
+}
+
+.task__link {
+  display: block;
+  padding-block: .5rem;
+  color: #333;
+  font-size: 1rem;
+  white-space: nowrap;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

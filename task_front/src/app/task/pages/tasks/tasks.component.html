@@ -1,0 +1,32 @@
+<section class="task">
+  <app-search-task
+    (searchEvent)="onSearch($event)"
+    [searchParameter]="searchParameter"
+  ></app-search-task>
+
+  <ng-container *ngIf="(tasks$ | async)?.data?.data as tasks">
+    <section class="task__list">
+      <app-task-list [tasks]="tasks"></app-task-list>
+    </section>
+  </ng-container>
+
+  <ng-container *ngIf="!((tasks$ | async)?.data?.data!.length > 0) && !isLoading">
+    <div class="info">
+      <p class="info__message"> No data to be displayed </p>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="(tasks$ | async)?.data as pagination">
+    <app-pagination
+      (selectedPageEvent)="onSelectedPage($event)"
+      [totalItems]="pagination.totalItems"
+      [pageSize]="pagination.pageSize"
+      [totalPages]="pagination.totalPages"
+      [selectedPage]="pagination.selectedPage"
+    >
+    </app-pagination>
+  </ng-container>
+
+</section>
+
+

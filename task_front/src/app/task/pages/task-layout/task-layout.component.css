@@ -1,0 +1,66 @@
+.task__layout {
+  background-color: var(--blue-color);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.task__area {
+  background-color: var(--white-color);
+  max-width: 25rem;
+  width: 25rem;
+  height: calc(100vh - 15vh);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-block-start: 1.5rem;
+  padding-block-end: .5rem;
+}
+
+.task__create {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  background-color: var(--dark-gray-color);
+  width: 3.5rem;
+  height: 3.5rem;
+  display: grid;
+  place-items: center;
+  translate: -50% 0;
+  border-radius: 50vw;
+}
+
+.task__create-icon{
+  font-size: 2rem;
+  color: var(--white-color);
+}
+
+.task__header-title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: var(--dark-gray-color);
+}
+
+.task__main {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: hidden;
+}
+
+.task__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.task__footer-icon, .task__footer-text {
+  font-size: .8rem;
+  color: var(--dark-gray-color);
+}
+
+

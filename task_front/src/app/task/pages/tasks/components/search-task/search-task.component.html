@@ -1,0 +1,53 @@
+<!-- search -->
+<form class="search__form">
+  <input
+    type="search"
+    id="search"
+    name="search"
+    placeholder="Search"
+    class="search__input"
+    [formControl]="searchForm"
+  >
+  <button type="button" class="search__filter" (click)="toggleDialog()">
+    <i class="fa-solid fa-filter search__icon"></i>
+  </button>
+</form>
+
+<!-- dialog -->
+<section class="dialog" *ngIf="openDialog">
+  <form class="dialog__form">
+    <div class="dialog__wrapper">
+      <h5 class="dialog__title">Sort by</h5>
+      <button type="button" class="dialog__close" (click)="toggleDialog()">
+        <i class="fa-regular fa-circle-xmark dialog__close-icon"></i>
+      </button>
+    </div>
+    <div class="dialog__sort">
+      <div class="dialog__field">
+        <input
+          value="asc"
+          type="radio"
+          class="dialog__input"
+          id="ascending"
+          name="sort"
+          [checked]="searchParameter.sortBy === 'asc'"
+          (change)="onSortSelected('asc')"
+        >
+        <label for="ascending" class="dialog__label">Ascending</label>
+      </div>
+      <div class="dialog__field">
+        <input
+          value="desc"
+          type="radio"
+          class="dialog__input"
+          id="descending"
+          name="sort"
+          [checked]="searchParameter.sortBy === 'desc'"
+          (change)="onSortSelected('desc')"
+        >
+        <label for="descending" class="dialog__label">Descending</label>
+      </div>
+    </div>
+    <button type="button" class="dialog__apply" (click)="onApply()">Apply</button>
+  </form>
+</section>

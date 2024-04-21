@@ -1,0 +1,17 @@
+<section class="task__layout">
+  <div class="task__area">
+    <a [routerLink]="['/add-task']" class="task__create" aria-label="create task" *ngIf="isHomePage">
+      <i class="fa-solid fa-plus task__create-icon"></i>
+    </a>
+    <header class="task__header">
+      <h1 class="task__header-title">Task</h1>
+    </header>
+    <main class="task__main">
+      <router-outlet></router-outlet>
+    </main>
+    <footer class="task__footer">
+      <i class="fa-solid fa-copyright task__footer-icon"></i>
+      <p class="task__footer-text">All rights reserved | made by Julio</p>
+    </footer>
+  </div>
+</section>

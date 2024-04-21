@@ -1,0 +1,9 @@
+<section class="tasks">
+  <ul class="task__list">
+    <ng-container *ngFor="let task of tasks">
+      <li class="task__item">
+        <a [routerLink]="['edit-task', task.id]" class="task__link"> {{ task.name }} </a>
+      </li>
+    </ng-container>
+  </ul>
+</section>

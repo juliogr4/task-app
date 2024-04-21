@@ -1,0 +1,49 @@
+.task {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.task__form {
+  flex: 1;
+}
+
+.task__input {
+  height: 100%;
+  width: 100%;
+  resize: none;
+  padding: 1rem;
+}
+
+.task__actions {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.task__button {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50vw;
+  display: grid;
+  place-items: center;
+}
+
+.task__button--add-edit {
+  background-color: var(--green-color);
+}
+
+.task__button--delete {
+  background-color: var(--brown-color);
+}
+
+.task__button--home {
+  background-color: var(--blue-color);
+}
+
+.task__icon {
+  font-size: 1.5rem;
+  color: var(--white-color);
+}

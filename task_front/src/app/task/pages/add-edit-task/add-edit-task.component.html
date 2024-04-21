@@ -1,0 +1,20 @@
+<section class="task">
+  <form class="task__form" [formGroup]="taskForm">
+    <textarea class="task__input" placeholder="Task name" formControlName="name"></textarea>
+  </form>
+  <div class="task__actions">
+    <ng-container *ngIf="action.toLocaleLowerCase() === 'edit'">
+      <button type="button" class="task__button task__button--delete" (click)="onDelete()">
+        <i class="fa-solid fa-trash task__icon"></i>
+      </button>
+    </ng-container>
+    <button type="button" class="task__button task__button--home" (click)="navigateToHomePage()">
+      <i class="fa-solid fa-house task__icon"></i>
+    </button>
+    <button type="button" class="task__button task__button--add-edit" (click)="onSave()">
+      <i class="fa-solid fa-check task__icon"></i>
+    </button>
+  </div>
+</section>
+
+

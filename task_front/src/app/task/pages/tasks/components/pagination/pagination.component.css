@@ -1,0 +1,16 @@
+.pagination {
+  text-align: center;
+}
+
+.pagination__button {
+  color: var(--blue-color);
+}
+
+.pagination__icon {
+  font-size: 3rem;
+  padding-inline: .5rem;
+}
+
+.pagination__button--disabled {
+  color: var(--light-gray-color);
+}

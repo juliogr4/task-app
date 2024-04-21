@@ -1,0 +1,19 @@
+<section class="pagination" *ngIf="!(totalItems === pageSize)">
+  <!-- voltar -->
+  <button
+    class="pagination__previous pagination__button"
+    [ngClass]="{'pagination__button--disabled': selectedPage === 1 }"
+    (click)="onPreviousPage()"
+    >
+    <i class="fa-solid fa-circle-chevron-left pagination__icon"></i>
+  </button>
+
+  <!-- posterior -->
+  <button
+    class="pagination__next pagination__button"
+    [ngClass]="{'pagination__button--disabled': selectedPage === totalPages }"
+    (click)="onNextPage()"
+    >
+    <i class="fa-solid fa-circle-chevron-right pagination__icon"></i>
+  </button>
+</section>

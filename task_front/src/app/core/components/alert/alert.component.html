@@ -1,0 +1,14 @@
+<div
+  class="alert"
+  [ngClass]="{
+    'alert__success': alert.alertType === alertType.Success,
+    'alert__error': alert.alertType === alertType.Error,
+  }"
+>
+  <i class="alert__icon {{ getAlertIcon() }}"></i>
+  <div class="alert__content">
+    <p class="alert__title">{{ getEnumNameProperty() }}</p>
+    <p class="alert__message"> {{ alert.message }} </p>
+  </div>
+</div>
+
