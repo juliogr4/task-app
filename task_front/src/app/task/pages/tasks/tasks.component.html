@@ -16,15 +16,17 @@
     </div>
   </ng-container>
 
-  <ng-container *ngIf="(tasks$ | async)?.data as pagination">
-    <app-pagination
-      (selectedPageEvent)="onSelectedPage($event)"
-      [totalItems]="pagination.totalItems"
-      [pageSize]="pagination.pageSize"
-      [totalPages]="pagination.totalPages"
-      [selectedPage]="pagination.selectedPage"
-    >
-    </app-pagination>
+  <ng-container *ngIf="((tasks$ | async)?.data?.data!.length > 0)">
+    <ng-container *ngIf="(tasks$ | async)?.data as pagination">
+      <app-pagination
+        (selectedPageEvent)="onSelectedPage($event)"
+        [totalItems]="pagination.totalItems"
+        [pageSize]="pagination.pageSize"
+        [totalPages]="pagination.totalPages"
+        [selectedPage]="pagination.selectedPage"
+      >
+      </app-pagination>
+    </ng-container>
   </ng-container>
 
 </section>

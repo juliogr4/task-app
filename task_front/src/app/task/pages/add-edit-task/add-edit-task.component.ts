@@ -45,7 +45,7 @@ export class AddEditTaskComponent implements OnInit, OnDestroy {
             catchError((error) => {
               this.alertService.onError(error);
               this.navigateToHomePage();        // avoid continuing
-              return EMPTY;
+              return of();
             }),
             tap((task) => {
               this.taskForm.setValue({

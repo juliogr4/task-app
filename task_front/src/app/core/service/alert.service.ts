@@ -6,7 +6,7 @@ import { Alert, AlertType } from '../model/alert';
   providedIn: 'root'
 })
 export class AlertService {
-  alertSubject: Subject<Alert> = new Subject<Alert>();
+  private alertSubject: Subject<Alert> = new Subject<Alert>();
   alertObservable$ = this.alertSubject.asObservable();
 
   constructor() { }

@@ -66,3 +66,4 @@ D:\youtube\task\task_api\obj\Debug\net8.0\refint\task_api.dll
 D:\youtube\task\task_api\obj\Debug\net8.0\task_api.pdb
 D:\youtube\task\task_api\obj\Debug\net8.0\task_api.genruntimeconfig.cache
 D:\youtube\task\task_api\obj\Debug\net8.0\ref\task_api.dll
+D:\youtube\task\task_api\obj\Debug\net8.0\task_api.sourcelink.json
